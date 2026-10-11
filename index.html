@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Controle Financeiro</title>
+<meta name="description" content="Controle Financeiro: suas compras e Pix lançados sozinhos, quanto vai sobrar no fim do mês e um consultor para as dívidas — com seus dados só no seu celular.">
+<style>
+  :root {
+    color-scheme: light;
+    --fundo: #eef0f3; --cartao: #ffffff; --texto: #14171a; --texto-2: #454b51;
+    --marca: #00796b; --marca-fundo: #cceee7; --borda: rgba(20, 23, 26, .08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --fundo: #0f1113; --cartao: #1b1e22; --texto: #e3e3e6; --texto-2: #c0c4ca;
+      --marca: #4dd0b5; --marca-fundo: #12453d; --borda: rgba(255, 255, 255, .08);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fundo); color: var(--texto);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.55;
+  }
+  .pagina { max-width: 880px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { padding: 24px 0 8px; }
+  .selo {
+    display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px;
+    background: var(--marca-fundo); color: var(--marca); font-size: 14px; font-weight: 600;
+  }
+  h1 { font-size: clamp(32px, 6vw, 48px); line-height: 1.1; margin: 16px 0 12px; letter-spacing: -.02em; }
+  .chamada { font-size: clamp(17px, 2.4vw, 20px); color: var(--texto-2); max-width: 640px; margin: 0; }
+  h2 { font-size: 22px; margin: 40px 0 16px; letter-spacing: -.01em; }
+  .grade { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .cartao {
+    background: var(--cartao); border: 1px solid var(--borda); border-radius: 20px; padding: 20px;
+  }
+  .cartao h3 { margin: 0 0 6px; font-size: 17px; }
+  .cartao p { margin: 0; color: var(--texto-2); font-size: 15px; }
+  .icone {
+    width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; margin-bottom: 12px;
+    background: var(--marca-fundo); color: var(--marca); font-size: 20px;
+  }
+  .privacidade { background: var(--cartao); border: 1px solid var(--borda); border-radius: 20px; padding: 24px; }
+  .privacidade ul { margin: 0; padding-left: 20px; }
+  .privacidade li { margin: 6px 0; }
+  .botao {
+    display: inline-block; margin-top: 16px; padding: 12px 20px; border-radius: 999px;
+    background: var(--marca); color: var(--cartao); font-weight: 600; text-decoration: none;
+  }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--borda); color: var(--texto-2); font-size: 14px; }
+  footer a, .privacidade a:not(.botao) { color: var(--marca); }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header>
+    <span class="selo">Em breve na Google Play</span>
+    <h1>Controle Financeiro</h1>
+    <p class="chamada">Suas compras e Pix lançados sozinhos, quanto vai sobrar no fim do mês e um consultor que monta o
+      plano das dívidas — com os seus dados guardados só no seu celular.</p>
+  </header>
+
+  <h2>O que o app faz</h2>
+  <div class="grade">
+    <div class="cartao">
+      <div class="icone" aria-hidden="true">⚡</div>
+      <h3>Lança sozinho</h3>
+      <p>Lê as notificações dos apps dos seus bancos (você escolhe quais) e lança cada compra e cada Pix na hora, já com
+        a categoria.</p>
+    </div>
+    <div class="cartao">
+      <div class="icone" aria-hidden="true">🏦</div>
+      <h3>Open Finance, só leitura</h3>
+      <p>Se você quiser, lê os extratos dos seus bancos pelo Open Finance para pegar o que o banco não avisa. Só lê:
+        nada no app mexe no seu dinheiro.</p>
+    </div>
+    <div class="cartao">
+      <div class="icone" aria-hidden="true">📅</div>
+      <h3>O mês inteiro à vista</h3>
+      <p>Quanto vai sobrar no fim do mês, as faturas dos cartões, as contas fixas e as parcelas — e para onde foi cada
+        parte do seu salário.</p>
+    </div>
+    <div class="cartao">
+      <div class="icone" aria-hidden="true">🧭</div>
+      <h3>Consultor</h3>
+      <p>Monta um plano para as dívidas que cabe no seu mês mais apertado, prevê férias e 13º pelo seu salário e avisa
+        o que precisa de atenção.</p>
+    </div>
+    <div class="cartao">
+      <div class="icone" aria-hidden="true">🛡️</div>
+      <h3>Proteção contra golpe</h3>
+      <p>Avisa se aparecer no celular um app de acesso remoto ou um app que lê a tela — o que os golpistas usam para
+        fazer Pix no seu lugar.</p>
+    </div>
+    <div class="cartao">
+      <div class="icone" aria-hidden="true">☁️</div>
+      <h3>Backup trancado</h3>
+      <p>Todo dia, uma cópia trancada com uma senha sua vai para o SEU Google Drive. Sem a senha, ninguém abre — nem o
+        Google, nem nós.</p>
+    </div>
+  </div>
+
+  <h2>Privacidade, do jeito certo</h2>
+  <div class="privacidade">
+    <ul>
+      <li><strong>Seus dados ficam no seu celular</strong>, criptografados. Nós não temos servidor com os seus dados.</li>
+      <li><strong>Sem propaganda, sem rastreamento</strong> e sem venda de dados.</li>
+      <li>O app só usa a internet para duas coisas que você liga: <strong>ler o Open Finance</strong> e
+        <strong>guardar o backup trancado no seu Google Drive</strong>.</li>
+      <li>Para entrar no app, a digital ou o PIN do seu celular.</li>
+    </ul>
+    <a class="botao" href="privacidade.html">Ler a política de privacidade</a>
+  </div>
+
+  <footer>
+    <p>Controle Financeiro · Contato: <a href="mailto:controlefinanceiro.app@outlook.com">controlefinanceiro.app@outlook.com</a> ·
+      <a href="privacidade.html">Política de privacidade</a></p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade</title>
+<meta name="description" content="Política de privacidade do app Controle Financeiro: o que o app lê, onde os dados ficam, com quem fala na internet e os seus direitos.">
+<style>
+  :root {
+    color-scheme: light;
+    --fundo: #eef0f3; --cartao: #ffffff; --texto: #14171a; --texto-2: #454b51;
+    --marca: #00796b; --marca-fundo: #cceee7; --borda: rgba(20, 23, 26, .08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --fundo: #0f1113; --cartao: #1b1e22; --texto: #e3e3e6; --texto-2: #c0c4ca;
+      --marca: #4dd0b5; --marca-fundo: #12453d; --borda: rgba(255, 255, 255, .08);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fundo); color: var(--texto);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6;
+  }
+  .pagina { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  a { color: var(--marca); }
+  .voltar { font-size: 15px; text-decoration: none; }
+  h1 { font-size: clamp(28px, 5vw, 38px); line-height: 1.15; margin: 16px 0 4px; letter-spacing: -.02em; }
+  .data { color: var(--texto-2); margin: 0 0 24px; font-size: 15px; }
+  .resumo { background: var(--marca-fundo); border-radius: 20px; padding: 20px 24px; }
+  .resumo h2 { margin-top: 0; }
+  .resumo ul { margin: 0; padding-left: 20px; }
+  section { background: var(--cartao); border: 1px solid var(--borda); border-radius: 20px; padding: 20px 24px; margin-top: 12px; }
+  h2 { font-size: 19px; margin: 0 0 10px; letter-spacing: -.01em; }
+  h3 { font-size: 16px; margin: 16px 0 4px; }
+  p, li { color: var(--texto-2); font-size: 15.5px; }
+  p { margin: 6px 0; }
+  ul { padding-left: 20px; margin: 6px 0; }
+  strong { color: var(--texto); }
+  footer { margin-top: 32px; color: var(--texto-2); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <a class="voltar" href="index.html">‹ Controle Financeiro</a>
+  <h1>Política de Privacidade</h1>
+  <p class="data">App Controle Financeiro · Última atualização: 10 de outubro de 2026</p>
+
+  <div class="resumo">
+    <h2>Em poucas palavras</h2>
+    <ul>
+      <li><strong>Os seus dados ficam no seu celular</strong>, num banco de dados criptografado. Nós não temos servidor
+        que receba ou guarde os seus dados.</li>
+      <li><strong>Não vendemos, não alugamos e não compartilhamos</strong> os seus dados. O app não tem propaganda nem
+        rastreamento.</li>
+      <li>O app só usa a internet para duas coisas, e só se você ligar: <strong>ler os seus extratos pelo Open
+        Finance</strong> e <strong>guardar o backup trancado com a sua senha no seu próprio Google Drive</strong>.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>1. Quem é o responsável</h2>
+    <p>O app Controle Financeiro é desenvolvido por <strong>Edson Mesquita</strong>. Dúvidas sobre esta política
+      ou sobre os seus dados: <a href="mailto:controlefinanceiro.app@outlook.com">controlefinanceiro.app@outlook.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>2. O que o app lê e guarda — e onde</h2>
+    <h3>Os seus lançamentos</h3>
+    <p>Compras, Pix, salário, cartões, faturas, contas fixas, parcelas, categorias e o que você combina com o
+      consultor (dívidas, metas). Ficam no seu celular.</p>
+
+    <h3>Notificações dos apps de banco</h3>
+    <p>Com a sua permissão de "acesso às notificações", o app lê as notificações dos <strong>apps de banco que você
+      escolhe</strong> (por exemplo, "compra aprovada de R$ 50,00 em…") para lançar a compra ou o Pix sozinho. O texto
+      dessas notificações fica guardado no seu celular. Das notificações de <strong>outros apps</strong>, o app anota só
+      o <strong>nome do app</strong> que mandou — para você poder escolher quais bancos ler —, nunca o conteúdo.</p>
+
+    <h3>Open Finance (opcional)</h3>
+    <p>Se você ligar, o app lê, com o seu consentimento dado no seu banco, os dados que o Open Finance entrega: contas,
+      saldos, transações, cartões e empréstimos. A leitura é feita pela <strong>Pluggy</strong>, empresa que conecta
+      apps ao Open Finance. É <strong>só leitura</strong>: nada no app faz pagamento, Pix ou transferência. Os códigos de
+      acesso à Pluggy ficam guardados criptografados no seu celular e nunca vão para o backup.</p>
+
+    <h3>Documentos que você traz para o app</h3>
+    <p>Se você abrir no app o relatório do Registrato (Banco Central) ou prints da tela de dívidas do Serasa, eles são
+      lidos <strong>no próprio celular</strong> para mostrar as suas dívidas.</p>
+
+    <h3>Backup (opcional)</h3>
+    <p>Uma cópia de todos os dados, <strong>trancada com uma senha sua</strong>, é gravada todo dia no
+      <strong>seu</strong> Google Drive (ou num arquivo que você escolher). Detalhes na seção 4.</p>
+
+    <h3>Proteção contra golpe</h3>
+    <p>Para avisar sobre golpes, o app confere, no seu celular, se há app de acesso remoto instalado (como AnyDesk ou
+      TeamViewer) e quais apps têm acessibilidade, leitura de notificações ou função de administrador ligadas. Essa
+      conferência fica no celular: nada é enviado.</p>
+
+    <h3>Registro técnico</h3>
+    <p>Para achar defeitos, o app anota no celular eventos técnicos — horários e o que aconteceu com cada aviso de
+      banco (por exemplo, "lançada" ou "ignorada") —, sem o texto das notificações, sem valores e sem nomes de lojas
+      ou de pessoas. Esse registro não sai do celular.</p>
+  </section>
+
+  <section>
+    <h2>3. Para que os dados são usados</h2>
+    <p>Só para o que você vê no app: lançar e organizar os seus gastos, mostrar quanto vai sobrar, montar o plano do
+      consultor, avisar o que precisa de atenção e fazer o backup. <strong>Nada é usado para propaganda</strong>, para
+      montar perfil ou para qualquer outra finalidade.</p>
+  </section>
+
+  <section>
+    <h2>4. Google Drive e dados do Google</h2>
+    <ul>
+      <li>O app pede ao Google só a permissão <strong>"arquivos do Google Drive que você usa com este app"</strong>: ele
+        enxerga apenas os arquivos que ele mesmo cria — a pasta "Controle Financeiro" e o arquivo do backup. O resto do
+        seu Drive fica invisível para o app.</li>
+      <li>Essa permissão serve <strong>só para guardar e restaurar o seu backup</strong>. O app também usa o e-mail da
+        conta escolhida para mostrar na tela onde o backup está.</li>
+      <li>A cópia é <strong>criptografada no seu celular, antes de sair</strong>, com uma chave tirada da sua senha. Sem a
+        senha, ninguém abre o arquivo — nem o Google, nem nós. Esqueceu a senha, o backup não pode ser aberto.</li>
+      <li>Os dados do Google não são vendidos, não são transferidos a terceiros e não são usados para propaganda. O uso e
+        a transferência de informações recebidas das APIs do Google seguem a
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos
+        Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</li>
+      <li>Você pode tirar a permissão quando quiser em
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>; o arquivo do backup fica
+        no seu Drive até você apagar.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Com quem o app fala na internet</h2>
+    <p>Nenhum dado seu vai para servidor nosso — não temos um. O app só se conecta a endereços fixos, sempre com
+      conexão segura (HTTPS):</p>
+    <ul>
+      <li><strong>Pluggy</strong> (api.pluggy.ai) — para ler o Open Finance, se você ligar.</li>
+      <li><strong>Google</strong> (www.googleapis.com) — para guardar e restaurar o backup trancado no seu Drive, se você
+        ligar. A autorização da sua conta é feita pelos serviços do Google Play no seu celular.</li>
+    </ul>
+    <p>Para ler texto de imagens (os prints do Serasa), o app usa uma biblioteca do Google que funciona no próprio
+      celular; o Google pode receber dela dados técnicos de uso, mas não o conteúdo das imagens.</p>
+  </section>
+
+  <section>
+    <h2>6. Segurança</h2>
+    <ul>
+      <li>Banco de dados <strong>criptografado</strong>, com a chave guardada no chip de segurança do celular.</li>
+      <li>Entrada no app com a <strong>digital ou o PIN</strong> do celular.</li>
+      <li>Backup criptografado com <strong>AES-256</strong>, com chave derivada da sua senha.</li>
+      <li>Opção de bloquear capturas de tela e esconder o app na lista de apps recentes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Por quanto tempo os dados ficam</h2>
+    <p>Enquanto o app estiver no seu celular. Ao desinstalar, o Android apaga os dados do app. O backup fica no seu
+      Google Drive até você apagar o arquivo. No app, você também pode desligar e apagar tudo o que veio do Open
+      Finance.</p>
+  </section>
+
+  <section>
+    <h2>8. Os seus direitos (LGPD)</h2>
+    <p>Pela Lei Geral de Proteção de Dados, você tem direito de acessar, corrigir, levar para outro serviço e apagar
+      os seus dados, e de revogar o seu consentimento. Como os dados ficam com você, quase tudo se faz no próprio
+      app: ver e corrigir os lançamentos, desligar o Open Finance, desligar o backup ou apagar tudo desinstalando o
+      app. Para qualquer pedido ou dúvida, escreva para
+      <a href="mailto:controlefinanceiro.app@outlook.com">controlefinanceiro.app@outlook.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>9. Crianças</h2>
+    <p>O app não é destinado a menores de 18 anos.</p>
+  </section>
+
+  <section>
+    <h2>10. Mudanças nesta política</h2>
+    <p>Se esta política mudar, a data no alto da página muda junto, e mudanças importantes serão avisadas no app.</p>
+  </section>
+
+  <footer>
+    <p><a href="index.html">Controle Financeiro</a> · Contato: <a href="mailto:controlefinanceiro.app@outlook.com">controlefinanceiro.app@outlook.com</a></p>
+  </footer>
+</div>
+</body>
+</html>
